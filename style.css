@@ -3,6 +3,15 @@ body {
 	overflow: hidden;
 	display: flex;
 	align-items: center;
+	font-family: "Indie Flower";
 	justify-content: center;
-	background-image: linear-gradient(500deg, #2b4162 20%, #37a7bb 80%);
+	background: linear-gradient(500deg, #14d6e4 -420%, #000000 100%);
+}
+#wip {
+	position: absolute;
+	left: 2px;
+	bottom: 0%;
+}
+#head {
+	font-family: Pacifico;
 }
