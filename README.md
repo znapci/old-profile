@@ -1,2 +1,2 @@
 # znapci.github.io
-my portfolio
+wip "about me"
