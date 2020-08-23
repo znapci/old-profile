@@ -60,8 +60,6 @@ button {
   }
   #github { 
 	  position: absolute;
-	  width: 260pt;
-	  height: 88vh;
 	  align-content: center;
 	  justify-content: center;
   }
