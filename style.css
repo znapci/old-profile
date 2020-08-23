@@ -5,7 +5,9 @@ body {
 	align-items: center;
 	font-family: "Indie Flower";
 	justify-content: center;
-	background: linear-gradient(500deg, #14d6e4 -420%, #000000 100%);
+	background-image: url(assets/background.jpg);
+	background-position: center;
+	background-size: cover;
 }
 #wip {
 	position: absolute;
@@ -14,4 +16,12 @@ body {
 }
 #head {
 	font-family: "Indie Flower";
+}
+.card {
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.4;
 }
