@@ -12,11 +12,13 @@ body {
 	
 }
 #wip {
+	color: #ffffff;
 	position: absolute;
 	left: 2px;
 	bottom: 0%;
 	animation: bounce; 
   animation-duration: 2s;
+  animation-delay: 1s;
 }
 #content {
 	height: 100vh;
@@ -45,26 +47,30 @@ body {
 	overflow: hidden;
 	padding: 2pt;
 	border-radius: 20pt;
+	animation: rotateIn;
+	animation-duration: 01s;
 
 }
 
 #profile {
 	  position: absolute;
-	  height: 75vh;
+	  height: 75vh; 
+	  padding: 20pt;
   }
+
+
   #github { 
-	  position: absolute;
+	  padding: 20pt;
+	  position: relative;
 	  height: 100px;
-	  align-content: center;
-	  justify-content: center;
   }
   #github:hover
   {
-	animation: fadeOut;
+	animation: pulse;
 	animation-duration: 1s;
   }
   #txt {
-	  content: "";
+	padding: 20pt;
 	  height: 0px;
 	  max-width: 200px;
 	  text-align: center;
