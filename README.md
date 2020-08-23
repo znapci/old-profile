@@ -1,2 +1,3 @@
 # znapci.github.io
-wip "about me"
+a work in progress profile card...
+right now only for desktop        :|
