@@ -6,7 +6,7 @@ body {
 	font-family: "Indie Flower";
 	align-content: center;
 	justify-content: center;
-	background: lime;
+	background:url(assets/background.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -15,20 +15,16 @@ body {
 	position: absolute;
 	left: 2px;
 	bottom: 0%;
-	animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+	animation: bounce; 
+  animation-duration: 2s;
 }
 #content {
 	height: 100vh;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
-	font-family: "Indie Flower";
 	align-content: center;
 	justify-content: center;
-	background: url(assets/background.jpg);
-	background-position: center;
-	background-size: cover;
 	animation: fadeIn;
   animation-duration: 4s;
 
@@ -61,6 +57,11 @@ body {
 	  height: 100px;
 	  align-content: center;
 	  justify-content: center;
+  }
+  #github:hover
+  {
+	animation: fadeOut;
+	animation-duration: 1s;
   }
   #txt {
 	  content: "";
