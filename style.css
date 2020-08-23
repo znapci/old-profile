@@ -71,6 +71,7 @@ body {
   }
   #txt {
 	padding: 20pt;
+	font-size: 14pt;
 	  height: 0px;
 	  max-width: 200px;
 	  text-align: center;
