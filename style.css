@@ -63,7 +63,7 @@ body {
   #github { 
 	  padding: 20pt;
 	  position: relative;
-	  
+	  height: 10pt;
   }
   #github:hover
   {
