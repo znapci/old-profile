@@ -33,11 +33,12 @@ body {
 }
 #card {
 	background: url(https://images.unsplash.com/photo-1596798164026-4485ad66e508);
+	background-position: center;
 	filter: blur(8px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);
+    -o-filter:blur(8px);
+    -ms-filter:blur(8px);
+    -moz-filter:blur(8px);
+    -webkit-filter:blur(8px);
 	opacity: 1;
 	position: absolute;
 	align-content: center;
@@ -62,7 +63,7 @@ body {
   #github { 
 	  padding: 20pt;
 	  position: relative;
-	  height: 100px;
+	  
   }
   #github:hover
   {
@@ -70,10 +71,11 @@ body {
 	animation-duration: 1s;
   }
   #txt {
-	  color: #ffffff;
+	  color: #000000;
 	padding: 20pt;
 	font-size: 14pt;
 	  height: 0px;
+	  bottom: 180pt;
 	  max-width: 200px;
 	  text-align: center;
 	  position: absolute;
