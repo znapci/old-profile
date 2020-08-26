@@ -6,7 +6,7 @@ body {
 	font-family: "Indie Flower";
 	align-content: center;
 	justify-content: center;
-	background: url(https://images.unsplash.com/photo-1596798164026-4485ad66e508);
+	background: url(https://images.unsplash.com/photo-1596798164026-4485ad66e508?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
 	background-position: center;
 	background-size: cover;
 	
@@ -32,7 +32,7 @@ body {
 
 }
 #card {
-	background: url(https://images.unsplash.com/photo-1596798164026-4485ad66e508);
+	background: url(https://images.unsplash.com/photo-1596798164026-4485ad66e508?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
 	background-position: center;
 	filter: blur(8px);
     -o-filter:blur(8px);
