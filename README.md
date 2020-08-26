@@ -1,3 +1,2 @@
 # znapci.github.io
 a work in progress profile card...
-right now only for desktop        :|
